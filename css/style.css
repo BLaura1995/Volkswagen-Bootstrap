@@ -17,3 +17,13 @@
 .btn-light {
     Padding: 100px;
 }
+
+#dropdownMenu2 {
+    width: 10%;
+    border: 1px solid white;
+}
+
+.dropdown-menu {
+    width: 100%;
+    height: 100vh;
+}

@@ -8,21 +8,31 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <title>Volkswagen - Bootstrap</title>
 </head>
 
 <body>
-    <div class="card bg-dark text-white ">
-        <img src="img/TRocCabrio-001.webp" class="card-img" alt="...">
-        <div class="card-img-overlay ">
-            <h5 class="card-title display-3 ">Nieuwe T-Roc Cabrio
-                <h5>
-                    <p class="card-text display-5">Nu te bewonderen bij alle concessiehouders.</p>
-                    <button type="button" class="btn btn-light py-3 px-4 rounded-pill">Ontdek de T-roc Cabrio</button>
-                </h5>
-            </h5>
+    <div class="card">
+        <button class="btn" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-bars"></i>
+          </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <button class="dropdown-item" type="button">Action</button>
+            <button class="dropdown-item" type="button">Another action</button>
+            <button class="dropdown-item" type="button">Something else here</button>
         </div>
+    </div>
+    <img src="img/TRocCabrio-001.webp" class="card-img" alt="...">
+
+    <div class="card-img-overlay text-white ">
+        <h5 class="card-title display-3  ">Nieuwe T-Roc Cabrio
+            <h5>
+                <p class="card-text display-5">Nu te bewonderen bij alle concessiehouders.</p>
+                <button type="button" class="btn btn-light py-3 px-4 rounded-pill">Ontdek de T-roc Cabrio</button>
+            </h5>
+        </h5>
+    </div>
     </div>
 
     <!-- Optional JavaScript -->
