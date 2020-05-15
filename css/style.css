@@ -4,6 +4,16 @@
 }
 
 .card-img-overlay {
-    text-align: center;
-    align-items: center;
+    margin-top: 20%;
+    margin-left: 100px;
+}
+
+.card-text {
+    line-height: 2.5rem;
+    padding-top: 50px;
+}
+
+.btn,
+.btn-light {
+    Padding: 100px;
 }
